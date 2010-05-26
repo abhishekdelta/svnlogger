@@ -1,5 +1,5 @@
 #!/bin/bash
-svn log $1 | grep -v "^$" | grep -v ^- | awk -F "|" ' 
+svn log -r HEAD:1 $1 | grep -v "^$" | grep -v ^- | awk -F "|" ' 
 BEGIN{
 username=""
 date=""
