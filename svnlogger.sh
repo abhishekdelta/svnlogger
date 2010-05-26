@@ -1,7 +1,6 @@
 #!/bin/bash
-svn log | grep -v "^$" | grep -v ^- | awk -F "|" ' 
+svn log $1 | grep -v "^$" | grep -v ^- | awk -F "|" ' 
 BEGIN{
-print "svnlogger 0.1 by abhishekdelta (Abhishek Shrivastava)\n"
 username=""
 date=""
 revno=""
@@ -17,4 +16,7 @@ else
 {
  print "Revision " revno " : " $1 " by " username " on " date
 } 
-}' > $1
+}
+END{
+print "Log generated using svnlogger v0.1 by abhishekdelta"
+}' > $2
