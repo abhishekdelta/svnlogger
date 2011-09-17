@@ -1,0 +1,11 @@
+Revision 5  : Added options parsing by  abhi.nitt  on  2010-06-05 09:27:4
+--------------------------------------------------------------
+Revision 4  : Now will report from HEAD instead of BASE revision by  abhi.nitt  on  2010-05-26 18:59:3
+--------------------------------------------------------------
+Revision 3  : Added support of input directory and output directory by  abhi.nitt  on  2010-05-26 18:37:3
+--------------------------------------------------------------
+Revision 2  : Adding svnlogger script by  abhi.nitt  on  2010-05-25 18:22:2
+--------------------------------------------------------------
+Revision 1  : Initial directory structure. by  (no author)  on  2010-05-25 18:01:3
+--------------------------------------------------------------
+Log generated using svnlogger v0.1 by abhishekdelta
